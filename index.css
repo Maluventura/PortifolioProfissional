@@ -39,6 +39,11 @@ align-items: center;
 margin-top: 50px;
 }
 
+#foto{
+margin-left:0;
+
+}
+
 .card{
 display: flex;
 justify-content: center;
