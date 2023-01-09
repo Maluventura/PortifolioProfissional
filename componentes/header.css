@@ -1,0 +1,40 @@
+header{
+font-family: var(--fontPrincipal);
+
+}
+
+#headerContainer{
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding-top: 20px;
+font-size: 25px ;
+font-family: var(--fontPrincipal);
+color:var(--corLetras);
+}
+.logo{
+font-family: var(--fontPrincipal);
+color:var(--corLetras);
+font-size: 45px;
+font-weight: 400;}
+#navigation a{
+color: var(--corLetras);
+padding: 20px;
+text-decoration: none;
+
+}
+#ContainerLogo{
+display: flex;
+justify-content: end;
+padding-left: 5%;
+}
+
+#Containernav{
+display: flex;
+justify-content: flex-end;
+padding-right: 10%;
+}
+#navigation a:hover{
+color: white;
+
+}

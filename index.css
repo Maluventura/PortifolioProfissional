@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap');
+
+@import url("componentes/header.css");
+@import url("componentes/home.css");
+@import url("componentes/sobre.css");
+@import url("componentes/projetos.css");
+@import url("componentes/footer.css");
+*{
+margin: 0px;
+border: 0px;
+padding: 0px;
+}
+
+:root {
+    --corPrincipalFundo: #272626fd ;
+    --corLetras:#BDADEA;;
+    --fontPrincipal:'Inter', sans-serif;
+}
+body{
+height: 100vh;
+background-color: var(--corPrincipalFundo);
+}
+
+
+@media only screen and (max-width:760px) {
+#projetos{
+width: 100%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin-bottom: 30px;
+}
+#containerProjeto{
+display: flex;
+flex-direction: column;
+width: 80%;
+align-items: center;
+margin-top: 50px;
+}
+
+.card{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+padding-bottom: 20px;
+padding-top: 20px;
+border: solid 2px var(--corLetras);
+border-radius: 0px 0px 10px;
+width:100%;
+max-width: 300px;
+
+}
+
+
+.imgcard{
+width: 200px;
+border-bottom: solid 2px var(--corLetras);
+
+}
+
+#Home{display: flex;
+flex-direction:column;
+justify-content: center !important;
+align-items: center !important;
+}
+
+#navlink{
+align-items: center;
+justify-content: center ;
+align-items: center !important;
+display:flex !important;
+
+}
+
+#contact nav{
+display:inline-flex;
+flex-direction: row;
+height: 100px;
+}
+.fotomalu{
+margin-top: 30px;
+width:200px;
+}
+#sobre{
+width: 100%;
+}
+.textop{
+padding: 6px;
+width: 100%;
+max-width: 280px;
+}
+#descricao{
+width: 100%;
+max-width: 300px;
+}
+footer{
+background-color: #BDADEA;
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column !important;
+}
+#containerinfo{
+display: flex;
+flex-direction:column!important;
+width: 100%;
+height: auto;
+}
+
+.containerinformacaocontato{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.EfeitoAlinharinfocontato{
+display: flex;
+width: 100%;
+max-width: 210px;
+margin: 10px;
+text-align: center;
+}
+.iconedocontato{
+width: 30px;
+height: 30px;
+}
+.sessaoinfo{
+display: flex;
+flex-direction: column;
+margin: 10px;
+}
+.containerimgInfo{
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+}

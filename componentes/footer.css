@@ -1,0 +1,60 @@
+footer{
+background-color: #BDADEA;
+width: 100%;
+}
+#containerinfo{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+width: 100%;
+max-width: 980px;
+}
+
+#containerFooter{
+margin-top: 50px;
+padding-bottom: 30px;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.sessaoinfo{
+width: 100%;
+justify-content: center;
+align-items: center;
+max-width: 300px;
+display: flex;
+}
+
+.containerinformacaocontato{
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 20px;
+width: 100%;
+max-width: 980px;
+
+}
+.EfeitoAlinharinfocontato{
+display: flex;
+flex-direction: column;
+padding: 10px;
+}
+
+.iconedocontato{
+width: 30px;
+height: 30px;
+}
+#titulocontainercontato{
+font-size: 40px;
+font-family: var(--fontPrincipal);
+
+}
+#titulocontainercontato::after{
+   content: '';
+    display: block;
+    width: 90%;
+    height: 3px;
+    background:beige;
+    margin-left: 20%;
+    margin-top: 2%;}

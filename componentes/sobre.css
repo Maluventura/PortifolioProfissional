@@ -1,0 +1,72 @@
+.profissao1{
+color:var(--corLetras);
+font-size: 30px;
+font-weight: bold;
+font-family: var(--fontPrincipal);
+margin-bottom: 10px;
+text-align: center;
+}
+
+
+
+
+#sobre{
+display: flex;
+flex-direction: row;
+width: 100%;
+}
+
+
+#tracovisual{
+width: 300px;
+margin-top: 15px;
+border:solid 1px #bdadea9c;
+background-color: #bdadeaa4;
+}
+
+
+#efeitovisual{
+margin-top: 60px;
+width: 100%;
+height: 105px;
+ background-image: linear-gradient(to top, #bdadea41, transparent);
+
+}
+#sobre{
+display: flex;
+justify-content: center;
+width: 100%;
+}
+
+#descricao{
+width: 100%;
+max-width: 900px;
+margin-top: 90px;
+}
+
+.sobretex{
+display:flex;
+justify-content: center;
+font-size: 20px;
+font-family: var(--fontPrincipal);
+color: var(--corLetras);
+margin-top: 100px;
+}
+
+.sobretex h1::after{
+font-family: var(--fontPrincipal);
+    content: '';
+    display: block;
+    width: 90%;
+    height: 3px;
+    background:beige;
+    margin-left: 20%;
+    margin-top: 2%;
+}
+
+
+.alinhamentotex{
+margin-top: 20px;
+text-align: justify;
+
+}

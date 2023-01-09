@@ -1,0 +1,108 @@
+#Home{
+display: flex;
+flex-direction: row;
+justify-content: center;
+margin-top: 10%;
+}
+
+.NameMariaLuzia{
+color: white;
+font-size: 60px;
+font-weight: 400;
+font-family: var(--fontPrincipal);
+margin: 2px;
+}
+
+.profissao{
+color:var(--corLetras);
+font-size: 30px;
+font-weight: bold;
+font-family: var(--fontPrincipal);
+margin-bottom: 10px;
+}
+.textop{
+color: rgba(245, 245, 245, 0.726);
+font-size: 20px;
+font-weight: 400;
+font-family: var(--fontPrincipal);
+
+
+}
+#skills{
+margin-top: 40px;
+}
+
+#skills img {
+padding: 5px;
+}
+
+
+#buttoncv{
+margin-top: 20px;
+background-color: #BDADEA;
+padding: 15px;
+border-radius: 15px;
+font-family: var(--fontPrincipal);
+font-weight: 400;
+color: black;
+}
+#apresentacao{
+width:100%;
+max-width: 600px;
+
+}
+
+
+#foto{
+margin-left: 15%;
+
+}
+.fotomalu{
+border-radius: 155px;
+}
+
+#contact nav{
+display:inline-flex;
+flex-direction: column;
+justify-content: center;
+height: 300px;
+}
+
+.contatc{
+width: 30px;
+display: inline-block;
+}
+
+.link{
+background-color: #41404077 ;
+border-radius: 100%;
+margin: 20px;
+padding: 5px;
+
+}
+.link1{
+background-color: #41404077 ;
+border-radius: 100px;
+margin: 20px;
+padding: 5px;
+
+}
+
+.link1:hover{
+background-color: #BDADEA;}
+.link:hover{
+background-color: #BDADEA;}
+
+
+#containerbuttoncv{
+display: flex;
+justify-content: start;
+}
+#buttoncv:hover{
+background-color: var(--corPrincipalFundo);
+border: solid 1px var(--corLetras);
+color: var(--corLetras);
+
+
+
+}
