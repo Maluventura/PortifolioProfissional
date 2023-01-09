@@ -58,3 +58,12 @@ font-family: var(--fontPrincipal);
     background:beige;
     margin-left: 20%;
     margin-top: 2%;}
+
+.linkwhats{
+text-decoration: none;
+color: #000;
+}
+.linkwhats:hover{
+
+color: green;
+}
